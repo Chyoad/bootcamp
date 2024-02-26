@@ -1,0 +1,51 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.left {
+  flex: 0 0 10%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.right {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar ul li {
+  padding: 10px;
+    list-style: none
+}
+
+.nav ul li a {
+  text-decoration: none;
+}
+
+.main-content {
+  flex: 4;
+  padding: 20px;
+  height: 1200px;
+  overflow: auto;
+}
